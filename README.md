@@ -20,15 +20,40 @@ This is the backend part of the Saraha app, responsible for managing user authen
 - nodemon
 
 ### Installation
-```bash
-# Clone the repository
-git clone https://github.com/AmanSalman/NodeJs-Saraha.git
 
-# Navigate to the project directory
-cd NodeJs-Saraha
+To run Saraha locally, follow these steps:
 
-# Install dependencies
-npm install
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/AmanSalman/NodeJs-Saraha.git
+    ```
 
-# Start the server
-npm run dev
+2. **Navigate to the project directory:**
+    ```bash
+    cd NodeJs-Saraha
+    ```
+
+3. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+4. **Set up environment variables:**
+    - Create a `.env` file in the root directory.
+    - Add the following variables to the `.env` file:
+        ```plaintext
+        PORT=3000
+        MONGODB_URI=your-mongodb-uri
+        JWT_SECRET=your-jwt-secret
+        EMAIL_HOST=your-email-host
+        EMAIL_PORT=your-email-port
+        EMAIL_USER=your-email-user
+        EMAIL_PASS=your-email-pass
+        ```
+
+5. **Start the server:**
+    ```bash
+    npm run dev
+    ```
+
+Make sure to replace `your-mongodb-uri`, `your-jwt-secret`, `your-email-host`, `your-email-port`, `your-email-user`, and `your-email-pass` with your actual values.
