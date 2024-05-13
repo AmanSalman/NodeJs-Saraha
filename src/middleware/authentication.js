@@ -24,12 +24,10 @@ export const auth = async (req,res,next)=>{
     const decoded = await jwt.verify (token, process.env.LOGINSIG);
 
     const authUser = await userModel.findById(decoded._id);
-<<<<<<< HEAD
+
     if(!authUser){
         return res.json({message:"user not found"});
     }
-=======
->>>>>>> 169942b841bd5a3f14ee3ac936c48b421728c6b8
     req.user = authUser;
     next();
 } 
