@@ -22,10 +22,10 @@ This is the backend part of the Saraha app, responsible for managing user authen
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/username/backendmongo.git
+git clone https://github.com/AmanSalman/NodeJs-Saraha.git
 
 # Navigate to the project directory
-cd backendmongo
+cd NodeJs-Saraha
 
 # Install dependencies
 npm install
