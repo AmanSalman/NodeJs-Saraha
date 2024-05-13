@@ -3,7 +3,7 @@
 ## Description
 Saraha is an anonymous messaging app where users can send messages without revealing their identities. It's popular for giving and receiving feedback anonymously.
 
-## Backend ( NODE JS ENVIRONMENT | EXPRESS JS FRAMEWORK )
+## Backend (NODE JS ENVIRONMENT | EXPRESS JS FRAMEWORK)
 
 ### Features
 This is the backend part of the Saraha app, responsible for managing user authentication, message sending, and other functionalities.
@@ -57,3 +57,9 @@ To run Saraha locally, follow these steps:
     ```
 
 Make sure to replace `your-mongodb-uri`, `your-jwt-secret`, `your-email-host`, `your-email-port`, `your-email-user`, and `your-email-pass` with your actual values.
+
+### Postman Documentation
+
+You can find detailed API documentation and examples in our Postman collection:
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/30950345/2sA3BhfaXN)
